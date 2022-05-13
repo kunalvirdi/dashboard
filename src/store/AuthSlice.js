@@ -5,13 +5,16 @@ const AuthSlice=createSlice(
 		name:'AuthSlice',
 		initialState:{
 			token:null,
-			profileUrl:null,
+			imgUrl:null,
 			name:null,
 			email:null
 		},
 		reducers:{
 			login(state,action){
-
+				state.token=action.payload.user.token
+				state.imgUrl=action.payload.user.url
+				state.name=action.payload.user.name;
+				state.email=action.payload.user.email;
 			},
 			logout(state){
 
