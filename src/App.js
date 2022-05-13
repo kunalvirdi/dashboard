@@ -1,8 +1,7 @@
 import Login from "./components/Login";
+import Dashboard from "./components/Dashboard";
 import {useSelector} from "react-redux";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Redirect, Route, Switch} from "react-router-dom";
-import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 function App() {
 	const token=useSelector(state=>state.token);
@@ -17,7 +16,7 @@ function App() {
 				<Login/>
 			</Route>
 			<Route path='/dashboard' exact>
-
+				<Dashboard/>
 			</Route>
 		</div>
 	);
