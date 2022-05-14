@@ -12,7 +12,7 @@ const Header=()=>{
 	const img=useSelector(state=>state.imgUrl);
 	return (
 		<header className='flex px-4 justify-between items-center lg:mt-7'>
-			<div className='heading lg:ml-32 2xl:ml-52'>
+			<div className='heading lg:ml-44'>
 				<h1 className='text-black font-bold text-3xl mb-4'>Dashboard</h1>
 				<p>Welcome back, {name}</p>
 			</div>

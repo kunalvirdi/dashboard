@@ -4,7 +4,7 @@ import {faCaretUp,faCaretDown,faBitcoinSign,faDollar,faEuroSign,faYenSign} from 
 
 const Prices=()=>{
 	return (
-		<section className='prices grid grid-cols-2 justify-items-start items-center md:grid-cols-4 md:justify-items-start md:ml-3 lg:ml-32 2xl:ml-36 mt-5'>
+		<section className='prices grid grid-cols-2 justify-items-start items-center md:grid-cols-4 md:justify-items-start md:ml-3 lg:ml-32 mt-5'>
 			<Price name='BALANCE' price='5900.00'/>
 			<Price name='PROFITS' price='950.00' color='text-green-600'  icon={<FontAwesomeIcon className='text-green-600' icon={faCaretUp}/>} percent='+56%'/>
 			<Price className='ml-4' name='LOSSES' color='text-red-600' price='450.00' icon={<FontAwesomeIcon className='text-red-600' icon={faCaretDown}/>} percent='-56%'/>

@@ -6,7 +6,7 @@ const Data=()=>{
 	const name=useSelector(state=>state.name);
 	const img=useSelector(state=>state.imgUrl)
 	return(
-		<div className='flex mt-7 flex-col justify-between w-5/6 m-auto sm:w-4/5 sm:m-auto md:flex-row md:w-5/6 lg:ml-32 2xl:ml-56'>
+		<div className='flex mt-7 flex-col justify-between w-5/6 m-auto sm:w-4/5 sm:m-auto md:flex-row md:w-5/6 lg:ml-44'>
 			<div className='ml-2 mr-2 md:w-full md:mr-9'>
 				<div className='flex mb-8 justify-between items-center'>
 					<h1 className='text-2xl'>Team Members</h1>
