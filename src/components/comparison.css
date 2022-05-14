@@ -1,0 +1,36 @@
+.bar1,.bar2,.bar3{
+    height: .5rem;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.bar1:before{
+    position: absolute;
+    content: '';
+    width: 93%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 25px;
+}
+
+.bar2:before{
+    position: absolute;
+    content: '';
+    width: 73%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 25px;
+
+
+}
+
+.bar3:before{
+    position: absolute;
+    content: '';
+    width: 23%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 25px;
+}

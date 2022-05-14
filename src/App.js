@@ -8,16 +8,17 @@ function App() {
 	console.log(token);
 	return (
 		<div className="App">
-			<Switch>
-				{!token && <Redirect to='/login' />}
-				{token && <Redirect to='dashboard'/>}
-			</Switch>
-			<Route path='/login' exact>
-				<Login/>
-			</Route>
-			<Route path='/dashboard' exact>
-				<Dashboard/>
-			</Route>
+			<Dashboard/>
+			{/*<Switch>*/}
+			{/*	{!token && <Redirect to='/login' />}*/}
+			{/*	{token && <Redirect to='dashboard'/>}*/}
+			{/*</Switch>*/}
+			{/*<Route path='/login' exact>*/}
+			{/*	<Login/>*/}
+			{/*</Route>*/}
+			{/*<Route path='/dashboard' exact>*/}
+			{/*	<Dashboard/>*/}
+			{/*</Route>*/}
 		</div>
 	);
 }

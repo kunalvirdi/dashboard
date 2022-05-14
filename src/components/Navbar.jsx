@@ -28,7 +28,7 @@ const Navbar=()=>{
 			<div className={`hamburger w-10 ${toggle && 'hidden'} lg:hidden`} onClick={toggleHandler}>
 				<img src={hamburger} className='w-full' alt="ham"/>
 			</div>
-			<nav className={`navbar ${!toggle && 'hidden'} bg-slate-100 fixed top-0 bottom-0 lg:block  w-1/3  sm:w-1/5 lg:w-1/6 xl:w-1/12`}>
+			<nav className={`navbar ${!toggle && 'hidden'} z-10 bg-white fixed top-0 bottom-0 lg:block  w-1/3  sm:w-1/5 lg:w-1/12`}>
 				<div className={`nav__items  flex flex-col items-center`}>
 					<div className="close-icon mt-4 lg:hidden" onClick={toggleHandler}>
 						<img src={cross} alt="" className='w-7'/>

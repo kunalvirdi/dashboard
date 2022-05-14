@@ -4,3 +4,7 @@ export {default as notification} from './notification.png';
 export {default as trading} from './trading.png';
 export {default as dashboard} from './dashboard.png';
 export {default as hamburger} from './hamburger.png';
+export {default as user} from './user.png'
+export {default as us} from './united-states.png'
+export {default as italy} from './italy.png';
+export {default as spain} from './spain.png'
