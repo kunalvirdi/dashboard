@@ -1,4 +1,4 @@
-###Technologies Used:
+### Technologies Used:
 - It used Redux toolkit for state management
 - Google Authentication for Sign In with google using firebase.
 - Tailwind CSS used to made this
